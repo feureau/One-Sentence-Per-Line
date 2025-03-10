@@ -2,7 +2,7 @@
   "publisher": "Feureau",
   "name": "one-sentence-per-line",
   "displayName": "OneSentencePerLine",
-  "description": "This VS Code extension automatically reformats text so that each sentence appears on its own line, improving readability and version control in Markdown, documentation, and plain text files.",
+  "description": "This VS Code extension reformats text so that each sentence appears on its own line, improving readability and version control. Auto-formatting is applied to pasted text.",
   "version": "0.0.1",
   "repository": {
     "type": "git",
@@ -64,7 +64,7 @@
         "oneSentencePerLine.autoFormat": {
           "type": "boolean",
           "default": true,
-          "description": "Automatically enforce one sentence per line on every text change for supported text files (Markdown, plaintext, etc.)."
+          "description": "Automatically format pasted text to have one sentence per line."
         }
       }
     }
